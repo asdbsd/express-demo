@@ -1,0 +1,14 @@
+<h1>Catalog Page</h1>
+<a href="/catalog/create">Create new Product</a>
+<p>Products:</p>
+<ul>
+    {{#each products}}
+        {{#if promoted}}
+            <li><span style="color: gold">{{name}} - {{[price]}}</span> <a href="/catalog/delete/{{_id}}"><i class="fa fa-trash-o" style="font-size:20px; color:red"></i></a></li>
+        {{else}}
+            <li><span>{{name}} - {{[price]}}</span> <a href="/catalog/delete/{{_id}}"><i class="fa fa-trash-o" style="font-size:20px; color:red"></i></a></li>
+        {{/if}}
+    {{else}}
+    <span class="italics">No products in database!</span>
+    {{/each}}
+</ul>

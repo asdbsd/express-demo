@@ -1,0 +1,31 @@
+{
+  "4e888d62": {
+    "name": "Watch",
+    "price": "200"
+  },
+  "985b21d5": {
+    "name": "Toy",
+    "price": "8",
+    "promoted": false
+  },
+  "f1a4a517": {
+    "name": "Tower",
+    "price": "500",
+    "promoted": false
+  },
+  "0f485cea": {
+    "name": "Elephan",
+    "price": "2525",
+    "promoted": true
+  },
+  "3f578b30": {
+    "name": "New Product",
+    "price": "250",
+    "promoted": false
+  },
+  "fb82cdba": {
+    "name": "Keyboard",
+    "price": "12",
+    "promoted": true
+  }
+}
